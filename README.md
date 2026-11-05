@@ -146,9 +146,3 @@ bash scripts/cleanup.sh
 Rimuove i container, l'immagine `ops-dashboard:lab`, i volumi e il file di prova
 `/tmp/ESCAPE_PROOF.txt`.
 
-## 10. Note sulla riproducibilità
-
-L'intero ambiente è ricostruibile dai file del repository, senza passaggi manuali
-non documentati. La relazione in `report/report.pdf` spiega il meccanismo di
-isolamento, perché la configurazione lo indebolisce, l'intera sequenza di
-sfruttamento e le contromisure.
